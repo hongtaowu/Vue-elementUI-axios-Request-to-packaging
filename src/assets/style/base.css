@@ -1,0 +1,184 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+#app {
+    height: 100%;
+}
+
+.size12 {
+    font-size: 12px;
+}
+
+
+/* 登录页 */
+
+.col-right {
+    text-align: right;
+    float: right;
+}
+
+
+/* 布局 */
+
+.el-main {
+    padding: 10px;
+}
+
+
+/* 搜索区域 */
+
+.el-form-item__label {
+    font-size: 12px;
+    padding-right: 6px;
+}
+
+.search-form {
+    border: 1px solid #ebeef5;
+    background-color: #fff;
+    padding: 20px 20px 0 10px;
+    margin-bottom: 10px;
+}
+
+.el-select {
+    display: block;
+}
+
+.mar-none,
+.el-table .cell,
+.el-table th div,
+.el-table--border td:first-child .cell,
+.el-table--border th:first-child .cell {
+    text-align: center;
+}
+
+.mar-none .el-form-item__content {
+    margin-left: 0 !important;
+}
+
+
+/* 分页 */
+
+.el-pagination {
+    text-align: right;
+    margin: 20px 0;
+}
+
+
+/* 列表 */
+
+.el-table__row td .cell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.el-pagination button,
+.el-pagination span:not([class*=suffix]),
+.el-pagination__sizes .el-input .el-input__inner {
+    font-size: 12px;
+}
+
+.el-input--mini .el-input__inner {
+    height: 22px;
+}
+
+
+/* 弹出框 */
+
+.table-d {
+    border-collapse: collapse;
+    margin-bottom: 12px;
+    font-size: 12px;
+    width: 100%;
+}
+
+.table-d td {
+    border: 1px solid #ebeef5;
+    text-align: center;
+    padding: 9px 10px 10px;
+    text-align: left;
+    width: 23%;
+}
+
+.table-d td:nth-child(2n+1) {
+    background: #fafafa;
+    text-align: right;
+    width: 10%;
+}
+
+.list-d th {
+    background-color: #f5f7fa;
+}
+
+.el-dialog__title {
+    font-size: 12px;
+}
+
+.el-dialog {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 !important;
+    transform: translate(-50%, -50%);
+    max-width: calc(100% - 30px);
+    max-height: calc(100% - 30px);
+    display: flex;
+    flex-direction: column;
+}
+
+.el-dialog>.el-dialog__body {
+    overflow: auto;
+}
+
+
+/* 上传 */
+
+.upload {
+    display: inline-block;
+}
+
+.iconStyle>.el-form-item__content {
+    display: flex;
+    align-items: center;
+}
+
+.iconStyle>.el-form-item__content i {
+    padding-left: 10px;
+}
+
+.mandatory::before {
+    display: inline-block;
+    content: "*";
+    color: #f56c6c;
+    margin-right: 4px;
+}
+
+
+/* 导航栏 */
+
+.el-menu-item:nth-child(1) {
+    padding: 0;
+    margin: 0;
+}
+
+.el-menu-item {
+    overflow: hidden;
+}
+
+
+/* .el-header {
+    width: 1200px;
+}
+
+.leftContet {
+    width: 1200px;
+} */
