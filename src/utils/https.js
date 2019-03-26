@@ -5,13 +5,13 @@ import { Message } from 'element-ui';
 
 let host = process.env.HOST;
 if (host === 'qa') {
-    axios.defaults.baseURL = 'http://10.245.38.109:9080/byton-sol';
+    axios.defaults.baseURL = '';
 } else if (host === 'stg') {
-    axios.defaults.baseURL = 'https://byton-sol-stg.ap1.covapp.io/byton-sol';
+    axios.defaults.baseURL = '';
 } else if (host === 'prd') {
-    axios.defaults.baseURL = 'https://byton-sol.ap1.covapp.io/byton-sol';
+    axios.defaults.baseURL = '';
 } else {
-    axios.defaults.baseURL = 'https://byton-sol-stg.ap1.covapp.io/byton-sol';
+    axios.defaults.baseURL = '';
 }
 
 // 请求拦截器
